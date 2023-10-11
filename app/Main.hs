@@ -2,8 +2,7 @@ import System.Random
 
 main :: IO ()
 main = do
-  -- randomNumber <- randomRIO (1 :: Int, 100 :: Int)
-  let randomNumber = 5
+  randomNumber <- randomRIO (1 :: Int, 100 :: Int)
 
   putStrLn "How many tries do you want?"
   userTries <- getLine
